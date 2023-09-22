@@ -1,0 +1,115 @@
+/* global */
+
+*{
+    margin: 0;
+}
+
+/* --------------
+    header
+---------------*/
+header{
+    background-color: rgb(255, 245, 226);
+    
+    
+}
+/*---------------------------
+        navigation
+-------------------------- */
+
+.navigation-bar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.division-one{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.division-two ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* ------------------
+        banner
+-------------------*/
+
+.banner{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.banner-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.banner-description{
+    margin: 25px 0;
+}
+
+.btn-primary{
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+    background-color: rgb(255, 131, 8);
+
+}
+
+.banner-img{
+    margin: 25px 0px;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------
+
+@ media query
+
+-------------------------------- */
+@media only screen and (max-width:668px) {
+
+   /* --------------nav--------------- */
+
+    .navigation-bar{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 95%;
+    }
+    .division-two ul{
+        flex-direction: column;
+    }
+}
+
+
