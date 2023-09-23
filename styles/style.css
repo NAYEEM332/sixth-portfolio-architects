@@ -7,11 +7,11 @@
 /* --------------
     header
 ---------------*/
+
 header{
     background-color: rgb(255, 245, 226);
-    
-    
 }
+
 /*---------------------------
         navigation
 -------------------------- */
@@ -71,21 +71,102 @@ header{
     width: 95%;
 }
 
+/* -------------------------------
+        main section one
+--------------------------------*/
+
+.grid-flex-division{
+    max-width: 850px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.grid img{
+    width: 200px;
+}
+
+.section-description{
+    color: rgb(167, 167, 167);
+    margin: 20px 0px;
+}
+
+.section-heading{
+    font-size: 35px;
+}
+
+.spn-one{
+    color: gray;
+}
+
+.spn-two{
+    font-weight: 700;
+}
+
+.spn-three{
+    color: rgb(255, 131, 8);
+}
+
+/*-------------------------------------------
+        main section two/second
+ -----------------------------------------*/
+
+.main-section-two{
+    max-width: 950px;
+    margin: 0 auto;
+}
 
 
+.feature-heading{
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-left: 5px solid rgb(255, 131, 8);
+}
 
+.feature-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
 
+.feature-container p{
+    color: gray;
 
+}
 
+.feature-img{
+    width: 450px;
+}
 
+.feature-box{
+    box-shadow: 1px 1px 25px rgb(235, 235, 235);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+}
 
+.btn-basic{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 25px;
+    color: white;
+    background-color: rgb(255, 131, 8);
+}
 
-
-
-
-
-
-
+.spn-four{
+    font-size: 50px;
+    font-weight: 700;
+}
 
 
 
@@ -107,9 +188,31 @@ header{
         justify-content: center;
         max-width: 95%;
     }
+    
     .division-two ul{
         flex-direction: column;
     }
+
+    .grid-flex-division{
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .grid{
+        width: 100%;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .grid img{
+        width: 200px;
+    }
+
+    .grid-one{
+        text-align: center;
+    }
+
+    
 }
 
 
