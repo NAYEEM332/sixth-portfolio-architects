@@ -1,11 +1,17 @@
-/* global */
+/* 
+
+global
+
+*/
 
 *{
     margin: 0;
 }
 
 /* --------------
+
     header
+
 ---------------*/
 
 header{
@@ -13,7 +19,9 @@ header{
 }
 
 /*---------------------------
+
         navigation
+
 -------------------------- */
 
 .navigation-bar{
@@ -37,7 +45,9 @@ header{
 }
 
 /* ------------------
+
         banner
+
 -------------------*/
 
 .banner{
@@ -72,7 +82,9 @@ header{
 }
 
 /* -------------------------------
+
         main section one
+
 --------------------------------*/
 
 .grid-flex-division{
@@ -117,7 +129,9 @@ header{
 }
 
 /*-------------------------------------------
+
         main section two/second
+
  -----------------------------------------*/
 
 .main-section-two{
@@ -163,10 +177,54 @@ header{
     background-color: rgb(255, 131, 8);
 }
 
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+    bottom: 70px;
+}
+
+
 .spn-four{
     font-size: 50px;
     font-weight: 700;
 }
+
+
+/* 
+----------------------------------------------
+
+            section-three
+
+----------------------------------------------
+ */
+
+.main-section-three{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.section-division-flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.box{
+    text-align: center;
+    padding: 30px 15px;
+    border: 1px solid rgb(255, 131, 8);
+    border-radius: 5px;
+    width: 120px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -211,8 +269,23 @@ header{
     .grid-one{
         text-align: center;
     }
-
     
+    .feature-container{
+        display: block;
+    }
+
+    .feature-img{
+        width: 412px;
+    }
+
+    .btn-btn{
+        display: block;
+    }
+    .section-division-flex{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 }
 
 
